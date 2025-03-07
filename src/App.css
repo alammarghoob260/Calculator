@@ -1,0 +1,47 @@
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.buttons-container > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0;
+}
+
+button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 20px;
+}
+
+button:first-child {
+  margin-left: 0;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
